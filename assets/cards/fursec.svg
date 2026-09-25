@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="170" viewBox="0 0 460 170">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0b111b"/><stop offset="1" stop-color="#0f1726"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="1" cy="0" r=".9">
+    <stop offset="0" stop-color="#ff5f56" stop-opacity=".22"/><stop offset="1" stop-color="#ff5f56" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="shine" x1="0" x2="1">
+    <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".06"/>
+    <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <clipPath id="c"><rect width="460" height="170" rx="14"/></clipPath>
+</defs>
+<style>.mono { font-family: 'JetBrains Mono','Fira Code','SFMono-Regular',Menlo,Consolas,monospace; }</style>
+<g clip-path="url(#c)">
+  <rect width="460" height="170" fill="url(#bg)"/>
+  <rect width="460" height="170" fill="url(#glow)"/>
+  <rect width="4" height="170" fill="#ff5f56"/>
+  <rect x="-200" width="120" height="170" fill="url(#shine)" transform="skewX(-20)">
+    <animate attributeName="x" values="-200;700;700" keyTimes="0;.3;1" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  <text x="28" y="46" font-size="22">📚</text>
+  <text x="62" y="45" class="mono" font-size="21" font-weight="700" fill="#e6edf7">Fursec</text>
+  <text x="432" y="44" text-anchor="end" class="mono" font-size="13" fill="#ff5f56">↗</text>
+  <text y="78" class="mono" font-size="12.5" fill="#9fb0c6"><tspan x="28" dy="0">Free cybersecurity learning path: ~200 courses</tspan><tspan x="28" dy="19">(PT-BR &amp; EN), 33 portfolio projects, ~60 repos,</tspan><tspan x="28" dy="19">books and a study method.</tspan></text>
+  <circle cx="34" cy="148" r="6" fill="#e34c26"/>
+  <text x="48" y="153" class="mono" font-size="13" fill="#8b9bb0">HTML</text>
+</g>
+<rect x=".5" y=".5" width="459" height="169" rx="14" fill="none" stroke="#ff5f56" stroke-opacity=".35"/>
+</svg>
