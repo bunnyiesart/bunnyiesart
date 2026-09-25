@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="460" height="214" viewBox="0 0 460 214" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+<path d="M28 42 L40 42 L54 8 L102 42 L128 42 L176 8 L190 42 L432 42 Q454 42 454 64 L454 186 Q454 208 432 208 L28 208 Q6 208 6 186 L6 64 Q6 42 28 42 Z" fill="#fff" stroke="#111111" stroke-width="3" stroke-linejoin="round"/>
+<text x="30" y="88" font-size="23" font-weight="800" fill="#111111">swiss</text>
+<path transform="translate(396 72) scale(1)" d="M0 7 L5 1 L6 7 L11 1" fill="none" stroke="#e8223a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path transform="translate(414 72) scale(1)" d="M0 7 L5 1 L6 7 L11 1" fill="none" stroke="#e8223a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text y="122" font-size="15" fill="#4a4a4a"><tspan x="30" dy="0">threat intel over MCP. one IOC in, 20+ sources out:</tspan><tspan x="30" dy="22">VirusTotal, AbuseIPDB, GreyNoise, Shodan, MISP and</tspan><tspan x="30" dy="22">more.</tspan></text>
+<circle cx="36" cy="187" r="5" fill="#111111"/>
+<text x="48" y="192" font-size="14" font-weight="600" fill="#4a4a4a">Python</text>
+</svg>

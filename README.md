@@ -1,30 +1,39 @@
 <div align="center">
 
-<img src="assets/loader.svg" width="820" alt="FreeBSD loader: Welcome to bunnyiesart"/>
+<img src="assets/header.svg" width="100%" alt="boykisser asking: you like reading my code, don't you?"/>
 
-<img src="assets/boot.svg" width="820" alt="dmesg: bunnyiesart booting, login as gabriel, man bunnyiesart"/>
-
-<img src="assets/man.svg" width="820" alt="man page: bunnyiesart(7)"/>
+<a href="https://bunnyiesart.github.io/portifolio/">portfolio</a> · <a href="https://bunnyiesart.github.io/Fursec/">fursec</a> · <a href="https://github.com/bunnyiesart?tab=repositories">repos</a>
 
 </div>
 
-| SEE ALSO | |
-|---|---|
-| [`gatte(8)`](https://github.com/bunnyiesart/Gatte) | self-hosted MCP gateway: one authenticated endpoint, per-analyst audit, tool quarantine |
-| [`swiss(1)`](https://github.com/bunnyiesart/swiss) | threat intel over MCP: one IOC in, 20+ sources out |
-| [`mcp-iris(8)`](https://github.com/bunnyiesart/mcp-iris) | read-only MCP server for DFIR-IRIS |
-| [`mcp-opensearch(8)`](https://github.com/bunnyiesart/mcp-opensearch) | read-only OpenSearch / SIEM MCP server |
-| [`bluearmory(7)`](https://github.com/bunnyiesart/bluearmory) | blue team MCP collection and Claude Code skills |
-| [`auto-treat(1)`](https://github.com/bunnyiesart/auto-treat) | automated SOC triage on DFIR-IRIS |
-| [`fursec(7)`](https://bunnyiesart.github.io/Fursec/) | trilha gratuita de cibersegurança: ~200 cursos, PT-BR e EN |
-| [`portfolio(1)`](https://bunnyiesart.github.io/portifolio/) | the other website |
+### about me
+
+- blue team analyst at **BSDTrust**: SOC, DFIR, threat intel, detection engineering
+- i build **MCP servers** that let AI assistants use real SOC tools, read-only and audited
+- also pentest: blackbox and web
+- FreeBSD enjoyer, kernel hardening, self-hosting
+- i keep **[Fursec](https://bunnyiesart.github.io/Fursec/)**, a free cybersecurity learning path in PT-BR and EN
+
+### things i made
+
+<div align="center">
+
+<a href="https://github.com/bunnyiesart/Gatte"><img src="assets/cards/gatte.svg" width="49%" alt="Gatte"/></a> <a href="https://github.com/bunnyiesart/swiss"><img src="assets/cards/swiss.svg" width="49%" alt="swiss"/></a>
+<a href="https://github.com/bunnyiesart/mcp-iris"><img src="assets/cards/mcp-iris.svg" width="49%" alt="mcp-iris"/></a> <a href="https://github.com/bunnyiesart/mcp-opensearch"><img src="assets/cards/mcp-opensearch.svg" width="49%" alt="mcp-opensearch"/></a>
+<a href="https://github.com/bunnyiesart/bluearmory"><img src="assets/cards/bluearmory.svg" width="49%" alt="bluearmory"/></a> <a href="https://bunnyiesart.github.io/Fursec/"><img src="assets/cards/fursec.svg" width="49%" alt="Fursec"/></a>
+
+</div>
+
+### contributions
 
 <div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bunnyiesart/bunnyiesart/output/snake-dark.svg"/>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bunnyiesart/bunnyiesart/output/snake.svg"/>
-  <img src="https://raw.githubusercontent.com/bunnyiesart/bunnyiesart/output/snake-dark.svg" alt="contribution graph"/>
+  <img src="https://raw.githubusercontent.com/bunnyiesart/bunnyiesart/output/snake-dark.svg" alt="contribution snake"/>
 </picture>
+
+<img src="assets/footer.svg" width="100%" alt="thanks for stopping by, have a nice day :3"/>
 
 </div>
