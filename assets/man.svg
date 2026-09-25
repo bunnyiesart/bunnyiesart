@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="818" height="1008" viewBox="0 0 818 1008">
+<style>
+  text { font-family: 'DejaVu Sans Mono','Menlo','Consolas','Liberation Mono',monospace; font-size: 16px; fill: #aaaaaa; white-space: pre; }
+  .blink { animation: blink 1s steps(1) infinite; }
+  @keyframes blink { 50% { opacity: 0; } }
+</style>
+<rect width="818" height="1008" fill="#000000"/>
+<g xml:space="preserve">
+<text x="24" y="39"><tspan>BUNNYIESART(7)     FreeBSD Miscellaneous Information Manual     BUNNYIESART(7)</tspan></text>
+<text x="24" y="59"></text>
+<text x="24" y="79"><tspan fill="#ffffff" font-weight="bold">NAME</tspan></text>
+<text x="24" y="99"><tspan>     </tspan><tspan fill="#ffffff" font-weight="bold">bunnyiesart</tspan><tspan> – Gabriel Silva Coelho, cybersecurity analyst</tspan></text>
+<text x="24" y="119"></text>
+<text x="24" y="139"><tspan fill="#ffffff" font-weight="bold">SYNOPSIS</tspan></text>
+<text x="24" y="159"><tspan>     </tspan><tspan fill="#ffffff" font-weight="bold">bunnyiesart</tspan><tspan> [</tspan><tspan fill="#ffffff" font-weight="bold">-bdp</tspan><tspan>] [</tspan><tspan fill="#ffffff" font-weight="bold">-f</tspan><tspan> </tspan><tspan fill="#aaaaaa" text-decoration="underline">focus</tspan><tspan>] [</tspan><tspan fill="#ffffff" font-weight="bold">--mcp</tspan><tspan> </tspan><tspan fill="#aaaaaa" text-decoration="underline">server ...</tspan><tspan>]</tspan></text>
+<text x="24" y="179"></text>
+<text x="24" y="199"><tspan fill="#ffffff" font-weight="bold">DESCRIPTION</tspan></text>
+<text x="24" y="219"><tspan>     </tspan><tspan fill="#ffffff" font-weight="bold">bunnyiesart</tspan><tspan> is a blue team analyst at BSDTrust, Brazil.  Works SOC and</tspan></text>
+<text x="24" y="239"><tspan>     incident response, and writes the tooling that makes that work faster.</tspan></text>
+<text x="24" y="259"></text>
+<text x="24" y="279"><tspan>     The options are as follows:</tspan></text>
+<text x="24" y="299"></text>
+<text x="24" y="319"><tspan>     </tspan><tspan fill="#ffffff" font-weight="bold">-b</tspan><tspan>      Blue team: SOC, DFIR, threat intel, detection engineering.</tspan></text>
+<text x="24" y="339"></text>
+<text x="24" y="359"><tspan>     </tspan><tspan fill="#ffffff" font-weight="bold">-d</tspan><tspan>      Develop MCP servers that give AI assistants access to real SOC</tspan></text>
+<text x="24" y="379"><tspan>             tooling.  Read-only by default, audited, hardened server-side.</tspan></text>
+<text x="24" y="399"></text>
+<text x="24" y="419"><tspan>     </tspan><tspan fill="#ffffff" font-weight="bold">-p</tspan><tspan>      Pentest: blackbox and web application security.</tspan></text>
+<text x="24" y="439"></text>
+<text x="24" y="459"><tspan>     </tspan><tspan fill="#ffffff" font-weight="bold">-f</tspan><tspan> </tspan><tspan fill="#aaaaaa" text-decoration="underline">focus</tspan></text>
+<text x="24" y="479"><tspan>             FreeBSD, kernel hardening, self-hosting.</tspan></text>
+<text x="24" y="499"></text>
+<text x="24" y="519"><tspan fill="#ffffff" font-weight="bold">IMPLEMENTATION NOTES</tspan></text>
+<text x="24" y="539"><tspan>           analyst + claude</tspan></text>
+<text x="24" y="559"><tspan>                  |</tspan></text>
+<text x="24" y="579"><tspan>               </tspan><tspan fill="#ffffff" font-weight="bold">gatte</tspan><tspan>(8)          one endpoint, per-analyst audit</tspan></text>
+<text x="24" y="599"><tspan>                  |</tspan></text>
+<text x="24" y="619"><tspan>       +----------+----------------+----------------+</tspan></text>
+<text x="24" y="639"><tspan>       |          |                |                |</tspan></text>
+<text x="24" y="659"><tspan>    </tspan><tspan fill="#ffffff" font-weight="bold">swiss</tspan><tspan>(1)  </tspan><tspan fill="#ffffff" font-weight="bold">mcp-iris</tspan><tspan>(8)  </tspan><tspan fill="#ffffff" font-weight="bold">mcp-opensearch</tspan><tspan>(8)  </tspan><tspan fill="#ffffff" font-weight="bold">bluearmory</tspan><tspan>(7)</tspan></text>
+<text x="24" y="679"><tspan>    threat     DFIR-IRIS      SIEM search         graylog + skills</tspan></text>
+<text x="24" y="699"><tspan>    intel      cases</tspan></text>
+<text x="24" y="719"></text>
+<text x="24" y="739"><tspan fill="#ffffff" font-weight="bold">ENVIRONMENT</tspan></text>
+<text x="24" y="759"><tspan>     </tspan><tspan fill="#ffffff" font-weight="bold">STACK</tspan><tspan>   Python, Go, JavaScript/TypeScript, Docker, sh(1)</tspan></text>
+<text x="24" y="779"><tspan>     </tspan><tspan fill="#ffffff" font-weight="bold">TOOLS</tspan><tspan>   Wazuh, Graylog, OpenSearch, DFIR-IRIS, MISP, Burp Suite</tspan></text>
+<text x="24" y="799"><tspan>     </tspan><tspan fill="#ffffff" font-weight="bold">LANG</tspan><tspan>    pt_BR.UTF-8, en_US.UTF-8</tspan></text>
+<text x="24" y="819"></text>
+<text x="24" y="839"><tspan fill="#ffffff" font-weight="bold">SEE ALSO</tspan></text>
+<text x="24" y="859"><tspan>     </tspan><tspan fill="#ffffff" font-weight="bold">gatte</tspan><tspan>(8), </tspan><tspan fill="#ffffff" font-weight="bold">swiss</tspan><tspan>(1), </tspan><tspan fill="#ffffff" font-weight="bold">mcp-iris</tspan><tspan>(8), </tspan><tspan fill="#ffffff" font-weight="bold">mcp-opensearch</tspan><tspan>(8), </tspan><tspan fill="#ffffff" font-weight="bold">bluearmory</tspan><tspan>(7),</tspan></text>
+<text x="24" y="879"><tspan>     </tspan><tspan fill="#ffffff" font-weight="bold">fursec</tspan><tspan>(7)</tspan></text>
+<text x="24" y="899"></text>
+<text x="24" y="919"><tspan fill="#ffffff" font-weight="bold">BUGS</tspan></text>
+<text x="24" y="939"><tspan>     Transforma vulnerabilidades em código.  Not a bug, a feature.</tspan></text>
+<text x="24" y="959"></text>
+<text x="24" y="979"><tspan>FreeBSD 14.3                  September 25, 2026                  FreeBSD 14.3</tspan></text>
+</g>
+
+</svg>

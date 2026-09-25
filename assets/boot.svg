@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="818" height="488" viewBox="0 0 818 488">
+<style>
+  text { font-family: 'DejaVu Sans Mono','Menlo','Consolas','Liberation Mono',monospace; font-size: 16px; fill: #aaaaaa; white-space: pre; }
+  .blink { animation: blink 1s steps(1) infinite; }
+  @keyframes blink { 50% { opacity: 0; } }
+</style>
+<rect width="818" height="488" fill="#000000"/>
+<g xml:space="preserve">
+<text x="24" y="39" opacity="0"><tspan>---&lt;&lt;BOOT&gt;&gt;---</tspan><animate attributeName="opacity" values="0;1" keyTimes="0;0.000" dur="12.84s" calcMode="discrete" repeatCount="indefinite"/></text>
+<text x="24" y="59" opacity="0"><tspan>Copyright (c) 1992-2026 The FreeBSD Project.</tspan><animate attributeName="opacity" values="0;1" keyTimes="0;0.017" dur="12.84s" calcMode="discrete" repeatCount="indefinite"/></text>
+<text x="24" y="79" opacity="0"><tspan>FreeBSD 14.3-RELEASE bunnyiesart #0: Thu Sep 25 2026</tspan><animate attributeName="opacity" values="0;1" keyTimes="0;0.034" dur="12.84s" calcMode="discrete" repeatCount="indefinite"/></text>
+<text x="24" y="99" opacity="0"><tspan>    gabriel@bunnyiesart:/usr/obj/usr/src/amd64.amd64/sys/SOC amd64</tspan><animate attributeName="opacity" values="0;1" keyTimes="0;0.051" dur="12.84s" calcMode="discrete" repeatCount="indefinite"/></text>
+<text x="24" y="119" opacity="0"><tspan>CPU: Gabriel Silva Coelho (Cybersecurity Analyst @ BSDTrust)</tspan><animate attributeName="opacity" values="0;1" keyTimes="0;0.069" dur="12.84s" calcMode="discrete" repeatCount="indefinite"/></text>
+<text x="24" y="139" opacity="0"><tspan>  Origin="Brasil"  Lang=pt_BR.UTF-8,en_US.UTF-8</tspan><animate attributeName="opacity" values="0;1" keyTimes="0;0.086" dur="12.84s" calcMode="discrete" repeatCount="indefinite"/></text>
+<text x="24" y="159" opacity="0"><tspan>blueteam0: &lt;Security Operations Center&gt; on nexus0</tspan><animate attributeName="opacity" values="0;1" keyTimes="0;0.103" dur="12.84s" calcMode="discrete" repeatCount="indefinite"/></text>
+<text x="24" y="179" opacity="0"><tspan>dfir0: &lt;Incident response, DFIR-IRIS&gt; on blueteam0</tspan><animate attributeName="opacity" values="0;1" keyTimes="0;0.120" dur="12.84s" calcMode="discrete" repeatCount="indefinite"/></text>
+<text x="24" y="199" opacity="0"><tspan>ti0: &lt;Threat intelligence, 20+ sources&gt; on blueteam0</tspan><animate attributeName="opacity" values="0;1" keyTimes="0;0.137" dur="12.84s" calcMode="discrete" repeatCount="indefinite"/></text>
+<text x="24" y="219" opacity="0"><tspan>siem0: &lt;Wazuh / Graylog / OpenSearch&gt; on blueteam0</tspan><animate attributeName="opacity" values="0;1" keyTimes="0;0.154" dur="12.84s" calcMode="discrete" repeatCount="indefinite"/></text>
+<text x="24" y="239" opacity="0"><tspan>pentest0: &lt;Blackbox and web application security&gt; port 443</tspan><animate attributeName="opacity" values="0;1" keyTimes="0;0.171" dur="12.84s" calcMode="discrete" repeatCount="indefinite"/></text>
+<text x="24" y="259" opacity="0"><tspan>gatte0: &lt;MCP gateway, audit, tool quarantine&gt; on mcpbus0</tspan><animate attributeName="opacity" values="0;1" keyTimes="0;0.188" dur="12.84s" calcMode="discrete" repeatCount="indefinite"/></text>
+<text x="24" y="279" opacity="0"><tspan>Trying to mount root from zfs:zroot/ROOT/default []...</tspan><animate attributeName="opacity" values="0;1" keyTimes="0;0.206" dur="12.84s" calcMode="discrete" repeatCount="indefinite"/></text>
+<text x="24" y="299" opacity="0"><tspan>Starting sshd.</tspan><animate attributeName="opacity" values="0;1" keyTimes="0;0.223" dur="12.84s" calcMode="discrete" repeatCount="indefinite"/></text>
+<text x="24" y="319" opacity="0"><tspan>Starting coffee.</tspan><animate attributeName="opacity" values="0;1" keyTimes="0;0.240" dur="12.84s" calcMode="discrete" repeatCount="indefinite"/></text>
+<text x="24" y="339" opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0;0.257" dur="12.84s" calcMode="discrete" repeatCount="indefinite"/></text>
+<text x="24" y="359" opacity="0"><tspan>FreeBSD/amd64 (bunnyiesart) (ttyv0)</tspan><animate attributeName="opacity" values="0;1" keyTimes="0;0.274" dur="12.84s" calcMode="discrete" repeatCount="indefinite"/></text>
+<text x="24" y="379" opacity="0"><animate attributeName="opacity" values="0;1" keyTimes="0;0.291" dur="12.84s" calcMode="discrete" repeatCount="indefinite"/></text>
+<text x="24" y="399" opacity="0"><tspan>login: gabriel</tspan><animate attributeName="opacity" values="0;1" keyTimes="0;0.308" dur="12.84s" calcMode="discrete" repeatCount="indefinite"/></text>
+<text x="24" y="419" opacity="0"><tspan>Password:</tspan><animate attributeName="opacity" values="0;1" keyTimes="0;0.326" dur="12.84s" calcMode="discrete" repeatCount="indefinite"/></text>
+<text x="24" y="439" opacity="0"><tspan>Last login: Thu Sep 25 03:14:07 on ttyv0</tspan><animate attributeName="opacity" values="0;1" keyTimes="0;0.343" dur="12.84s" calcMode="discrete" repeatCount="indefinite"/></text>
+<text x="24" y="459" opacity="0"><tspan>gabriel@bunnyiesart:~ % </tspan><tspan fill="#ffffff" font-weight="bold">man bunnyiesart</tspan><animate attributeName="opacity" values="0;1" keyTimes="0;0.360" dur="12.84s" calcMode="discrete" repeatCount="indefinite"/></text>
+</g>
+<rect class="blink" x="409.2" y="457" width="9.6" height="3" fill="#aaaaaa"/>
+</svg>
