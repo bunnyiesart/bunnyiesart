@@ -50,14 +50,6 @@ def floating_hearts(spots: list[tuple[float, float, float, float]]) -> str:
     return out
 
 
-def heart_pattern() -> str:
-    return (
-        f'<pattern id="hearts" width="64" height="64" patternUnits="userSpaceOnUse">'
-        f'<path d="{HEART}" fill="{PINK}" transform="translate(16 18) scale(.7)"/>'
-        f'<path d="{HEART}" fill="{PINK}" transform="translate(48 50) scale(.5)"/></pattern>'
-    )
-
-
 def pill(x: float, y: float, label: str) -> tuple[str, float]:
     width = len(label) * 8 + 28
     svg = (
@@ -89,12 +81,10 @@ def build_header() -> str:
 
     return f'''{svg_open(w, h)}
 <defs>
-  {heart_pattern()}
   <clipPath id="card"><rect x="6" y="6" width="{w - 12}" height="{h - 12}" rx="28"/></clipPath>
 </defs>
 <g clip-path="url(#card)">
   <rect width="{w}" height="{h}" fill="{PAPER}"/>
-  <rect width="{w}" height="{h}" fill="url(#hearts)"/>
 
   <text x="44" y="66" font-size="19" font-weight="700" fill="{INK}">gabriel silva coelho <tspan fill="{SOFT_INK}" font-weight="500">· bunnyiesart</tspan></text>
   {blush_mark(372, 54)}
@@ -110,9 +100,7 @@ def build_header() -> str:
   <text x="44" y="294" font-size="17" fill="{SOFT_INK}">cybersecurity analyst @ BSDTrust · blue team · mcp developer</text>
   {pills}
 
-  <image x="{char_x}" y="{char_y}" width="{char_w:.1f}" height="{char_h}" href="{character_href()}">
-    <animateTransform attributeName="transform" type="translate" values="0 6;0 0;0 6" dur="3s" repeatCount="indefinite"/>
-  </image>
+  <image x="{char_x}" y="{char_y}" width="{char_w:.1f}" height="{char_h}" href="{character_href()}"/>
   {floating_hearts([(700, 150, 1, 0), (955, 130, .8, 1.3), (930, 210, 1.1, 2.6), (720, 240, .7, 3.4)])}
 </g>
 <rect x="6" y="6" width="{w - 12}" height="{h - 12}" rx="28" fill="none" stroke="{INK}" stroke-width="3"/>
@@ -165,9 +153,7 @@ def build_footer() -> str:
     char_w = char_h * CHARACTER_SIZE[0] / CHARACTER_SIZE[1]
     return f'''{svg_open(w, h)}
 <text x="{w / 2}" y="46" text-anchor="middle" font-size="22" font-weight="800" fill="#888">thanks for stopping by, have a nice day :3</text>
-<image x="{(w - char_w) / 2:.1f}" y="{h - 118}" width="{char_w:.1f}" height="{char_h}" href="{character_href()}">
-  <animateTransform attributeName="transform" type="translate" values="0 18;0 0;0 0;0 18" keyTimes="0;.2;.8;1" dur="5s" repeatCount="indefinite"/>
-</image>
+<image x="{(w - char_w) / 2:.1f}" y="{h - 118}" width="{char_w:.1f}" height="{char_h}" href="{character_href()}"/>
 {floating_hearts([(420, 170, .9, 0), (580, 160, 1, 1.5), (450, 120, .6, 2.8)])}
 </svg>
 '''
